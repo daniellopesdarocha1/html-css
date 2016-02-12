@@ -1,3 +1,3 @@
 # html-css
 
-Exercícios do Alura
+Exercícios Alura
