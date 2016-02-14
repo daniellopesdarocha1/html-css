@@ -64,6 +64,11 @@ p {
     color: #F2FFFC;
     padding: 20px;
     clear: both;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 nav a {
@@ -141,9 +146,11 @@ article {
 main {
     width: 85%;
     float: left;
+    padding-bottom: 80px;
+    
 }
 
-aside, img{
+.barra-de-navegacao, .foto-joao{
     width: 15%;
     float: left;
     border-bottom: 10px solid #000;
@@ -151,7 +158,18 @@ aside, img{
     box-sizing: border-box;
 }
 
+.foto-joao {
+    width: 300px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
 aside {
     clear: right;
     box-sizing: border-box;
+    position: relative;
+    top: 300px;
+    
 }
