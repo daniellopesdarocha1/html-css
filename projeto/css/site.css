@@ -1,0 +1,140 @@
+body {
+    font-family: "Crimson Text", serif;
+    background-color: #F2FFFC;
+    font-size: 120%;
+    line-height: 1.5;
+}
+
+h1, h2 {
+    font-family: "Open Sans Condensed", serif;
+}
+
+.titulo-principal {
+    text-align: center;
+    color: #FFF;
+    background-color: #851944;
+    padding: 25px;
+    border-bottom: 10px solid #000;
+    font-size: 60px;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+h2 {
+  font-size: 30px;
+    clear: both;
+}
+
+p {
+    text-align: justify;
+    padding-bottom: 20px;
+    padding-top: 20px 0;
+}
+
+.barra-de-navegacao {
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+    padding: 20px;
+    text-align: center;
+}
+
+.rodape-pagina {
+    background-color: #000;
+    color: #F2FFFC;
+    padding: 20px;
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+nav a {
+    color: #F2FFFC;
+}
+
+main a {
+    color: #851944;
+}
+
+aside a {
+    color: inherit;
+    font-family: "Open Sans Condensed", serif;
+}
+
+.container {
+    width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 0;
+}
+
+aside h1 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: bold;
+}
+
+.icones-redes-sociais li {
+    display: inline-block;
+}
+
+.icones-redes-sociais a {
+    width: 40px;
+    height: 40px;
+    display: block;
+    /*font-size: 0;*/
+    text-indent: -99999px;*/
+}
+
+.github {
+    background-image: url(../img/github.png);   
+}
+
+.twitter {
+    background-image: url(../img/twitter.png);
+}
+
+.linkedin {
+    background-image: url(../img/linkedin.png);
+}
+
+main {
+    width: 85%;
+    float: left;
+    padding-bottom: 80px;
+    
+}
+
+.barra-de-navegacao, .foto-joao{
+    width: 15%;
+    float: left;
+    border-bottom: 10px solid #000;
+    border-left: 10px solid #000;
+    box-sizing: border-box;
+}
+
+.foto-joao {
+    width: 300px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+aside {
+    clear: right;
+    box-sizing: border-box;
+    position: relative;
+    top: 300px;
+}
